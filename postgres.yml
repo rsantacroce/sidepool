@@ -4,9 +4,9 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_DB: yourdbname
+      POSTGRES_DB: sidepool
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_PASSWORD: password
       TZ: UTC
     volumes:
       - postgres_data:/var/lib/postgresql/data

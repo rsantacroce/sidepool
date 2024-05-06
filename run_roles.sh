@@ -37,7 +37,7 @@ count=1
 while [ $count -le $max_runs ]; do
     echo "Execution $count of $max_runs for $role"
 
-    cd ../roles
+    cd ../stratum-sidepool/roles
     # Run the cargo command for the specified role
     RUST_LOG=debug cargo run --bin $role -- -c $current_dir/$config
     
