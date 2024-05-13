@@ -1,6 +1,7 @@
 #!/bin/bash
 
 current_dir=$(pwd)
+RUST_BACKTRACE=1
 
 if [ -z "$1" ]; then
 
