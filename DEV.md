@@ -26,7 +26,7 @@ https://github.com/rsantacroce/stratum-sidepool/
 https://github.com/rsantacroce/bitcoin_signet/
 
 
-## Boostrap
+## Setting up the env
 
 1. Clone the sidepool repository 
 
