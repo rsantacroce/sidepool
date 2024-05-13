@@ -2,9 +2,9 @@
 
 ### setup, bootstrap and cpumining
 
-    DOING - store shares and relevante information from mining
-    - improve the default shares calculation
-    - improve user authentication for the pool with authorization and authentication
+    DONE - store shares and relevante information from mining
+    DONE - implement the default (pps) shares calculation
+    DOING - improve user authentication for the pool with authorization and authentication
 
     - DONE setup bitcoin signet, pool (range distribution and template provider), translator proxy
     - DONE integration with cpuminer with user (handling messages)
