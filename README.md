@@ -1,6 +1,6 @@
 # sidepool
 
-A open source reference implementation of a mining pool using SRI and enabling multiple payment schemes and payouts such as L2 and L1.
+A open source naive implementation of a mining pool using SRI and enabling multiple payment schemes and payouts such as L2 and L1.
 
 ## Objective
 
@@ -8,8 +8,8 @@ This is far from being production ready, is mostly tested on signet to simulate 
 
 There is some instrumentations needed in order to create a post billing kind of mining pool.
 
-- instrument all the messages in order to have a proper dashboard of events
-- create a proper webui / rest api to maintain the basic of a mining pool:
+DONE - instrument all the messages in order to have a proper dashboard of events
+WIP - create a proper webui / rest api to maintain the basic of a mining pool:
     - user login and profile
     - dashboards with stats both profile and public
     - withdraw panels and contribution history
@@ -17,9 +17,9 @@ There is some instrumentations needed in order to create a post billing kind of 
 
 ## References
 
-- [API Gateway](sidepool/api_gateway)
-- [Tasks](sidepool/tasks.md)
-- [Dev docs](sidepool/DEV.md)
+- [API Gateway](api-gateway)
+- [Tasks](tasks.md)
+- [Dev docs](DEV.md)
 - [DB](sidepool.sql)
 - [Default Configuration](config/)
 
